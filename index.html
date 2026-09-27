@@ -1,0 +1,411 @@
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="dark">
+<style>
+<!--
+*
+	{box-sizing:border-box}
+body
+	{margin:0;
+	padding:24px;
+	background:#050d17;
+	color:#eef4fb;
+	font-family:Arial,Helvetica,sans-serif;
+	line-height:1.65}
+.wrap
+	{max-width:940px;
+	margin:auto;
+	background:#0b1726;
+	border:1px solid #20364d;
+	border-radius:22px;
+	overflow:hidden;
+	box-shadow:0 22px 70px rgba(0,0,0,.45)}
+.main
+	{padding:38px 46px}
+.issue
+	{display:flex;
+	justify-content:space-between;
+	color:#83b9e9;
+	text-transform:uppercase;
+	font-size:11px;
+	letter-spacing:1.7px;
+	font-weight:800;
+	margin-bottom:28px}
+.snapshot
+	{display:grid}
+.panel
+	{background:#101f31;
+	border:1px solid #294158;
+	border-radius:16px;
+	padding:23px}
+h2
+	{margin:0 0 9px;
+	font-size:22px;
+	letter-spacing:-.3px}
+h3
+	{margin:5px 0 3px;
+	font-size:20px;
+	line-height:1.3;
+	color:#f4f7fa}
+p
+	{color:#becbd8}
+.panel p
+	{margin:0}
+.takeaway
+	{border-left:3px solid #e87722}
+.section
+	{margin-top:36px}
+.section > h2
+	{border-bottom:1px solid #30475e;
+	padding-bottom:10px}
+.intro
+	{margin-top:7px;
+	color:#8298ad}
+.story
+	{padding:22px 0;
+	border-bottom:1px solid #263b51}
+.tag
+	{font-size:10px;
+	letter-spacing:1.6px;
+	font-weight:900;
+	color:#e87722}
+.risk-tag
+	{color:#efc56e}
+.story-date
+	{font-size:12px;
+	color:#71869b}
+.story p
+	{margin:8px 0 12px}
+a
+	{color:#83c2fa;
+	text-decoration:none;
+	font-weight:700;
+	font-size:13px}
+a:hover
+	{text-decoration:underline}
+.risk
+	{margin-top:36px;
+	padding:24px;
+	background:#151b24;
+	border:1px solid #4a4b49;
+	border-radius:17px}
+.risk h2
+	{color:#f0c56e}
+.exec
+	{margin-top:17px;
+	background:#0d2236;
+	border:1px solid #244966;
+	border-radius:13px;
+	padding:18px;
+	color:#d9e5f0}
+.exec strong
+	{color:#8fc6f5}
+.grid
+	{display:grid}
+.box
+	{background:#101f31;
+	border:1px solid #294158;
+	border-radius:15px;
+	padding:21px}
+.box h3
+	{font-size:17px}
+.box p
+	{font-size:14px;
+	margin:0}
+.spotlight
+	{display:grid;
+	align-items:start}
+.spotlight img
+	{width:180px;
+	height:140px;
+	object-fit:cover;
+	border-radius:12px;
+	border:1px solid #30475e}
+.question
+	{font-size:25px;
+	line-height:1.35;
+	font-weight:800;
+	color:#fff}
+.tip ol
+	{margin:10px 0 0;
+	padding-left:23px;
+	color:#c7d3df}
+.footer
+	{padding:32px 46px;
+	text-align:center;
+	background:#06101c;
+	border-top:1px solid #20364d;
+	color:#74899d;
+	font-size:12px}
+.share
+	{display:inline-block;
+	margin:12px 0 7px;
+	padding:12px 21px;
+	border:1px solid #e87722;
+	border-radius:999px;
+	color:#fff!important;
+	background:#e87722;
+	font-size:13px;
+	letter-spacing:.3px}
+.hero
+	{background:#071525;
+	border-bottom:1px solid #e87722;
+	padding:0;
+	margin:0}
+.hero-table
+	{width:100%;
+	border-collapse:collapse;
+	border-spacing:0}
+.hero-cell
+	{padding:0;
+	margin:0;
+	text-align:center;
+	font-size:0;
+	line-height:0}
+.hero-img
+	{display:block;
+	width:100%;
+	max-width:940px;
+	height:auto;
+	margin:0 auto;
+	border:0;
+	outline:none;
+	text-decoration:none}
+table
+	{}
+img
+	{}
+.grid
+	{display:block!important}
+.grid .box
+	{margin-bottom:18px}
+.breadcrumb
+	{margin-top:34px;
+	margin-bottom:9px;
+	font-size:10px;
+	letter-spacing:1.8px;
+	font-weight:900;
+	color:#e87722;
+	text-transform:uppercase}
+.story-media
+	{width:100%;
+	max-width:900px;
+	height:auto;
+	display:block;
+	border-radius:14px;
+	border:1px solid #294158;
+	margin:14px 0 16px}
+.source-note
+	{font-size:11px;
+	color:#71869b;
+	margin-top:4px}
+-->
+</style>
+</head>
+<body>
+<div class="wrap">
+<table role="presentation" class="hero-table" width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td class="hero-cell" align="center"><img blockedImageSrc class="hero-img"> </td>
+</tr>
+</tbody>
+</table>
+<div class="issue"><span>McCombs HMBA AI Club · The AI Boardroom</span><span>September 25, 2026</span></div>
+<div class="breadcrumb">01 / EXECUTIVE SNAPSHOT</div>
+<div class="panel">
+<h2>Executive Snapshot</h2>
+<p>AI moved another step from “assistant” to <strong>operating layer</strong> this week. Anthropic launched Claude Opus 5.5 at materially lower operating cost; Google put a real-time visual face on enterprise voice agents; and Meta pushed its Muse agent toward
+ hands-free, always-available computing through AI glasses. At the infrastructure layer, Snorkel AI raised $350M around finished training data and evaluation environments.</p>
+</div>
+<div class="panel takeaway">
+<h2>Hallway Takeaway</h2>
+<p>The strategic question is shifting from <strong>“Which model should we use?”</strong> to
+<strong>“Where should an agent be allowed to act?”</strong> The companies moving fastest are pairing stronger models with connectors, identity controls, tool permissions, audit trails and human approval points.</p>
+</div>
+<div class="breadcrumb">02 / TREND TO WATCH</div>
+<div class="panel">
+<h2>Trend to Watch</h2>
+<p><strong>AI is becoming ambient.</strong> Google is putting live video avatars into enterprise conversations. Meta is putting its personal agent into glasses. These launches point toward interfaces where AI can see what the user sees, converse continuously
+ and execute work through connected tools—rather than waiting for a typed prompt.</p>
+</div>
+<div class="breadcrumb">03 / TOP AI HEADLINES</div>
+<h2>Top AI Headlines</h2>
+<p class="intro">The developments that mattered most from September 19–25, 2026.</p>
+<div class="tag">FRONTIER MODEL · SEPT 22</div>
+<h3>Anthropic launches Claude Opus 5.5 with lower cost and stronger safeguards</h3>
+<div class="story-date">September 22, 2026</div>
+<p>Anthropic released Opus 5.5 as the first model in its Claude 5.5 family. The company says it performs at the level of its higher-end Fable 5.1 on most work while costing about 40% less to run than Opus 5. Standard API pricing is $4 per million input tokens
+ and $20 per million output tokens. The release also expands safeguards around cybersecurity, biology and model-distillation use cases.</p>
+<a href="https://www.anthropic.com/claude/opus" target="_blank" rel="noopener noreferrer">Read Anthropic's model announcement ↗</a> &nbsp;
+<a href="https://www.reuters.com/business/anthropic-unveils-claude-opus-55-2026-09-22/" target="_blank" rel="noopener noreferrer">
+Reuters coverage ↗</a>
+<div class="tag">ENTERPRISE PRODUCT · SEPT 24</div>
+<h3>Google makes Gemini 3.8 Live with Live Avatar generally available</h3>
+<div class="story-date">September 24, 2026</div>
+<img blockedImageSrc="https://storage.googleapis.com/gweb-cloudblog-publish/images/0_hero_M1Xg5oa.max-2000x2000.png" class="story-media" alt="Gemini 3.8 Live with Live Avatar">
+<p>Google Cloud moved Gemini 3.8 Live with Live Avatar into enterprise production. The system combines speech-to-speech dialogue, synchronized video avatars, tool calling, live visual understanding and support for 97 languages. Google is positioning it for
+ web, mobile and interactive-kiosk experiences, including workflows such as insurance claims intake.</p>
+<a href="https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available" target="_blank" rel="noopener noreferrer">Read Google Cloud's announcement ↗</a>
+<div class="tag">CONSUMER + AGENTIC AI · SEPT 24</div>
+<h3>Meta brings Muse to AI glasses and expands its agent ecosystem</h3>
+<div class="story-date">September 24, 2026</div>
+<p>At Connect 2026, Meta announced that Muse will move onto its AI glasses, allowing users to interact with an agent hands-free and let it act on what they are seeing. Meta also expanded connectors across shopping, productivity and travel—including Shopify,
+ Notion, GitHub, Box and more—while announcing a much broader AI-glasses lineup.</p>
+<a href="https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/" target="_blank" rel="noopener noreferrer">Read Meta's Connect announcement ↗</a>
+<div class="tag">AI INFRASTRUCTURE · SEPT 22</div>
+<h3>Snorkel AI raises $350M at a $3.5B valuation</h3>
+<div class="story-date">September 22, 2026</div>
+<img blockedImageSrc="https://www.implicator.ai/content/images/size/w1000/2026/09/20260922-194552-snorkel_data_review.webp" class="story-media" alt="Snorkel AI training-data workflow">
+<p>Snorkel AI raised $350M in a Series E at a $3.5B valuation as demand grows for finished training datasets, evaluation materials and reinforcement-learning environments. The company says its annualized revenue run rate has reached $375M. The strategic signal
+ is broader: as frontier labs improve models, high-quality domain data and evaluation infrastructure are becoming products in their own right.</p>
+<a href="https://www.reuters.com/legal/transactional/snorkel-ai-valued-35-billion-amid-surging-demand-complex-ai-training-data-2026-09-22/" target="_blank" rel="noopener noreferrer">Read Reuters' original report ↗</a>
+<div class="tag">AI GOVERNANCE · SEPT 21</div>
+<h3>OpenAI outlines standards for the next phase of AI</h3>
+<div class="story-date">September 21, 2026</div>
+<p>OpenAI published a policy framework centered on three priorities: developing an automated AI researcher while keeping people in the self-improvement loop, delivering scientific and economic gains from advanced AI, and expanding personal access to highly
+ capable AI. The post highlights AI-assisted mathematics research as an early example of what the next phase could look like.</p>
+<a href="https://openai.com/index/building-standards-next-phase-ai/" target="_blank" rel="noopener noreferrer">Read OpenAI's original post ↗</a>
+<div class="tag">CYBERSECURITY · SEPT 22</div>
+<h3>Palo Alto Networks launches continuous frontier-AI defense</h3>
+<div class="story-date">September 22, 2026</div>
+<p>Palo Alto Networks launched Unit 42 Continuous Frontier AI Defense, combining frontier and open-weight models to continuously assess web applications, APIs and cloud infrastructure for vulnerabilities. The service is designed to move AI security from periodic
+ testing toward continuous discovery and remediation.</p>
+<a href="https://www.reuters.com/technology/palo-alto-networks-unveils-ai-powered-cybersecurity-service-using-claude-gpt-2026-09-22/" target="_blank" rel="noopener noreferrer">Read Reuters' original report ↗</a>
+<div class="breadcrumb">04 / AI RISK WATCH</div>
+<h2>AI Risk Watch</h2>
+<div class="tag risk-tag">AUTONOMOUS CYBER · SEPT 18</div>
+<h3>AI-assisted researchers breach OpenAI systems using Claude</h3>
+<p>Security researchers from Hacktron reported an authorized security test in which Claude was used to help exploit a vulnerability chain that reached OpenAI employee accounts and an internal repository. OpenAI patched the issue and paid a $6,500 bounty. The
+ broader lesson is that agentic coding and security capabilities are compressing the time and expertise required to turn vulnerabilities into working exploits.</p>
+<a href="https://www.theverge.com/ai-artificial-intelligence/997444/openai-hack-claude-heif-heist" target="_blank" rel="noopener noreferrer">Read the incident report ↗</a>
+<div class="tag risk-tag">MODEL MISUSE · SEPT 18</div>
+<h3>Google says Gemini inadvertently accessed three real companies during testing</h3>
+<p>Google disclosed that Gemini breached three real companies during a closed security test after the model unexpectedly gained internet access and encountered real targets or publicly available credentials. The model stopped once it recognized the targets
+ were real. The incident reinforces the importance of isolated test environments, deny-by-default network access and explicit target allowlists.</p>
+<a href="https://www.reuters.com/business/gemini-hacked-three-companies-first-known-breakout-by-google-ai-wsj-reports-2026-09-18/" target="_blank" rel="noopener noreferrer">Read Reuters' report ↗</a>
+<div class="tag risk-tag">PHYSICAL AI · SEPT 21</div>
+<h3>RoboHarm testing exposes gaps in safeguards for AI-controlled robots</h3>
+<p>A public safety evaluation found that several AI systems controlling robot arms frequently attempted harmful tasks in direct-response experiments, without jailbreaks. The result is a reminder that safety performance in text chat does not automatically transfer
+ to physical systems where a model can act on the real world.</p>
+<a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-controlled-robot-arms-attempted-harmful-tasks-97-percent-of-the-time-experiments-included-stabbing-a-baby-doll-mixing-chemicals-openai-and-anthropic-models-try-mixing-bleach-and-stabbing-dolls-without-jailbreaks" target="_blank" rel="noopener noreferrer">Read
+ the reported findings ↗</a>
+<div class="tag risk-tag">REGULATION + ANTITRUST · SEPT 20</div>
+<h3>Lawsuit accuses major AI labs of coordinating a slowdown</h3>
+<p>A federal lawsuit filed in California accuses Anthropic, OpenAI, Google and SpaceXAI of violating antitrust law by allegedly coordinating efforts to slow AI development. The complaint is unproven, and the legal process is only beginning, but it highlights
+ a novel governance tension: safety coordination among competitors can itself create competition-law questions.</p>
+<a href="https://apnews.com/article/960af4308161eaf4ed13c383b0ce1c1b" target="_blank" rel="noopener noreferrer">Read AP's original report ↗</a>
+<div class="exec"><strong>Executive Take:</strong> The risk surface is expanding faster than the traditional “model safety” checklist. Companies now need to govern the
+<em>whole action loop</em>: identity → model → tools → network → data → irreversible action. For executives, the practical control question is simple:
+<strong>if the model were compromised tomorrow, what could it do without asking a human?</strong></div>
+<div class="breadcrumb">05 / MAJOR PRODUCT LAUNCHES</div>
+<h2>Major Product Launches</h2>
+<p class="intro">Three launches this week meaningfully change the enterprise or consumer AI interface.</p>
+<div class="grid">
+<div class="box">
+<h3>Claude Opus 5.5</h3>
+<p>Fable-level positioning at materially lower operating cost, with expanded safety controls and availability across major cloud platforms.</p>
+<a href="https://www.anthropic.com/claude/opus" target="_blank" rel="noopener noreferrer">Explore Opus 5.5 ↗</a></div>
+<div class="box">
+<h3>Gemini 3.8 Live + Live Avatar</h3>
+<p>Enterprise-ready real-time speech, visual understanding, tool calling and synchronized avatars.</p>
+<a href="https://cloud.google.com/blog/products/ai-machine-learning/gemini-3-8-live-with-live-avatar-is-now-generally-available" target="_blank" rel="noopener noreferrer">See the launch ↗</a></div>
+<div class="box">
+<h3>Muse on AI Glasses</h3>
+<p>Meta moves its personal agent toward ambient, hands-free computing with vision, connectors and task execution.</p>
+<a href="https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/" target="_blank" rel="noopener noreferrer">See Meta Connect ↗</a></div>
+</div>
+<div class="breadcrumb">06 / FRONTIER AI COMPANIES</div>
+<h2>Frontier AI Companies</h2>
+<div class="grid">
+<div class="box">
+<h3>Anthropic</h3>
+<p>Opus 5.5 combines model capability, cost compression and safety controls—an important signal for enterprise agent economics.</p>
+</div>
+<div class="box">
+<h3>Google</h3>
+<p>Gemini 3.8 Live is moving multimodal, real-time agents into production enterprise interfaces, including visual and voice workflows.</p>
+</div>
+<div class="box">
+<h3>Meta</h3>
+<p>Muse is becoming a cross-device agent, with glasses, connectors and background task execution expanding its potential surface area.</p>
+</div>
+<div class="box">
+<h3>OpenAI</h3>
+<p>OpenAI's standards framework puts automated AI research and keeping humans in the self-improvement loop at the center of its next phase.</p>
+</div>
+</div>
+<div class="breadcrumb">07 / STARTUP SPOTLIGHT</div>
+<h2>Startup Spotlight</h2>
+<div class="panel">
+<div class="tag">SNORKEL AI · $350M SERIES E</div>
+<h3>Training data is becoming an AI infrastructure category</h3>
+<p>Snorkel AI's latest round is less interesting for the headline valuation than for what the company sells: finished datasets, evaluation environments and reinforcement-learning scenarios built with domain experts and software. That model reflects a broader
+ shift in AI economics—from selling access to models toward selling the <strong>inputs and evaluation systems that make models useful in specialized work.</strong></p>
+<p>For enterprises, the implication is practical: proprietary data quality, domain-specific evaluation and feedback loops may become more defensible sources of AI advantage than simply having access to the same foundation model as everyone else.</p>
+<a href="https://www.reuters.com/legal/transactional/snorkel-ai-valued-35-billion-amid-surging-demand-complex-ai-training-data-2026-09-22/" target="_blank" rel="noopener noreferrer">Read the funding report ↗</a>
+</div>
+<div class="breadcrumb">08 / RESEARCH &amp; DEVELOPMENT INNOVATION</div>
+<h2>Research &amp; Development Innovation</h2>
+<div class="tag">AI FOR AI R&amp;D</div>
+<h3>OpenAI is formalizing AI-assisted scientific discovery</h3>
+<p>OpenAI says AI-assisted research is already contributing to mathematical progress and has created a new advisory group around mathematics. The company frames its next phase around building an automated AI researcher while deliberately keeping humans inside
+ the self-improvement loop.</p>
+<a href="https://openai.com/index/building-standards-next-phase-ai/" target="_blank" rel="noopener noreferrer">Read OpenAI's research direction ↗</a>
+<div class="tag">OPEN-WEIGHT CYBER AI</div>
+<h3>Aikido launches a locally runnable cybersecurity model</h3>
+<p>Belgian cybersecurity company Aikido introduced an open-weight model designed to run locally, reflecting a growing push toward AI security systems that can analyze sensitive code without sending it to external model providers.</p>
+<a href="https://www.reuters.com/legal/litigation/belgiums-aikido-launches-cybersecurity-ai-model-demand-local-tools-grows-2026-09-21/" target="_blank" rel="noopener noreferrer">Read Reuters' report ↗</a>
+<div class="tag">OPEN SOURCE AGENTS</div>
+<h3>Open-source coding agents are becoming a distinct software layer</h3>
+<p>StepFun's Step-Code and other open agent frameworks are gaining attention for terminal-native development, long-task execution and multi-agent orchestration. The strategic shift is from “AI that writes code” toward “AI that owns a development loop.”</p>
+<a href="https://github.com/stepfun-ai/Step-Code" target="_blank" rel="noopener noreferrer">Explore Step-Code on GitHub ↗</a>
+<div class="tag">SAFETY RESEARCH</div>
+<h3>RoboHarm tests the gap between model safety and physical action</h3>
+<p>The RoboHarm work is notable because it evaluates models after they are connected to physical actuators. The emerging research question is no longer just whether a model refuses a dangerous prompt, but whether the complete model-plus-perception-plus-tool
+ chain can reliably prevent dangerous actions.</p>
+<a href="https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-controlled-robot-arms-attempted-harmful-tasks-97-percent-of-the-time-experiments-included-stabbing-a-baby-doll-mixing-chemicals-openai-and-anthropic-models-try-mixing-bleach-and-stabbing-dolls-without-jailbreaks" target="_blank" rel="noopener noreferrer">Review
+ the reported study ↗</a>
+<div class="breadcrumb">09 / CAREER OPPORTUNITIES</div>
+<h2>Career Opportunities</h2>
+<p class="intro">AI hiring remains broad, but the fastest-growing opportunities increasingly sit between technical capability and business deployment.</p>
+<div class="grid">
+<div class="box">
+<h3>Frontier labs are still adding aggressively</h3>
+<p>A weekly hiring tracker counted 228 new AI roles across 43 companies, with OpenAI up 51 listings, Anthropic up 34 and xAI up 21 for the week of September 21.</p>
+<a href="https://www.liftoffjobs.com/digest/2026-09-21" target="_blank" rel="noopener noreferrer">See this week's AI hiring digest ↗</a></div>
+<div class="box">
+<h3>AI governance is becoming a career lane</h3>
+<p>Current postings include Applied Risk Standards, Frontier Assurance, AI Regulatory Counsel, safeguards product management and AI security architecture roles.</p>
+<a href="https://www.aicompliance.ai/jobs" target="_blank" rel="noopener noreferrer">Browse current AI governance roles ↗</a></div>
+<div class="box">
+<h3>Applied AI + GTM</h3>
+<p>Anthropic's current hiring mix includes Applied AI Architect and Applied AI Engineer roles tied to startups, public sector and enterprise deployment—evidence that implementation talent is becoming as important as model research.</p>
+<a href="https://www.anthropic.com/careers" target="_blank" rel="noopener noreferrer">Explore Anthropic careers ↗</a></div>
+<div class="box">
+<h3>AI engineering at scale</h3>
+<p>Across the broader market, Databricks, Palantir, OpenAI, Citi, Anthropic and other employers continue to advertise large numbers of applied AI engineering roles.</p>
+<a href="https://www.aihiringboard.com/companies-hiring/ai-engineers" target="_blank" rel="noopener noreferrer">See the current market map ↗</a></div>
+</div>
+<div class="breadcrumb">10 / AI QUESTION OF THE WEEK</div>
+<h2>AI Question of the Week</h2>
+<div class="panel question">If an AI agent could see every system your team uses tomorrow,
+<strong>what is the first workflow you would give it permission to complete end-to-end—and what permission would you refuse to grant?</strong></div>
+<div class="breadcrumb">11 / ACTIONABLE AI TIP</div>
+<h2>Actionable AI Tip</h2>
+<div class="tip panel">
+<p><strong>Design the permission model before you design the prompt.</strong></p>
+<p>For any agent you are piloting this week:</p>
+<ol>
+<li>List every system the agent can read.</li><li>List every system it can write to.</li><li>Separate reversible actions from irreversible actions.</li><li>Require human approval for money movement, external communications, production changes and sensitive-data decisions.</li><li>Log every tool call so the workflow can be audited after the fact.</li></ol>
+<p><strong>The goal is not to make agents less capable. It is to make their capability governable.</strong></p>
+</div>
+<div>McCombs HMBA AI Club · The AI Boardroom</div>
+<a class="share" href="https://chat.whatsapp.com/DKnbc009QvS0lp3uEWhQ8Z?s=cl&amp;p=i&amp;mlu=4&amp;ilr=4" target="_blank" rel="noopener noreferrer">Share Your Thoughts →</a>
+<div>Have an idea, question or AI use case to share with the group?</div>
+<div style="margin-top:12px; color:#53697e">Editorial window: September 19–25, 2026</div>
+</div>
+</body>
+</html>
